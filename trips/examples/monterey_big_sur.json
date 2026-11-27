@@ -1,0 +1,57 @@
+{
+  "name": "Monterey + Paso Robles (example)",
+  "length_days": 5,
+  "places": [
+    {
+      "name": "Monterey",
+      "lat": 36.6002,
+      "lng": -121.8947,
+      "min_nights": 2,
+      "lodging_per_night": 290
+    },
+    {
+      "name": "Paso Robles",
+      "lat": 35.6266,
+      "lng": -120.691,
+      "min_nights": 2,
+      "lodging_per_night": 230
+    }
+  ],
+  "date_window": {
+    "start": "2027-04-22"
+  },
+  "travelers": [
+    {
+      "name": "Jay",
+      "origins": [
+        "SEA"
+      ]
+    },
+    {
+      "name": "Kim",
+      "origins": [
+        "DEN"
+      ]
+    },
+    {
+      "name": "Lou",
+      "origins": [
+        "PHX"
+      ]
+    },
+    {
+      "name": "Mo",
+      "origins": [
+        "BOS"
+      ]
+    },
+    {
+      "name": "Ned",
+      "origins": [
+        "SAT"
+      ]
+    }
+  ],
+  "notes": "Sample group. Not a real trip.",
+  "ordered": false
+}

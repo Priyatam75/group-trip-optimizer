@@ -1,0 +1,58 @@
+{
+  "name": "Grand Canyon + Sedona (example)",
+  "length_days": 5,
+  "places": [
+    {
+      "name": "Grand Canyon South Rim",
+      "lat": 36.0544,
+      "lng": -112.1401,
+      "min_nights": 2,
+      "lodging_per_night": 240
+    },
+    {
+      "name": "Sedona",
+      "lat": 34.8697,
+      "lng": -111.761,
+      "min_nights": 2,
+      "lodging_per_night": 260
+    }
+  ],
+  "date_window": {
+    "start": "2027-05-06"
+  },
+  "travelers": [
+    {
+      "name": "Eli",
+      "origins": [
+        "JFK",
+        "LGA"
+      ]
+    },
+    {
+      "name": "Fay",
+      "origins": [
+        "DFW"
+      ]
+    },
+    {
+      "name": "Gus",
+      "origins": [
+        "SFO"
+      ]
+    },
+    {
+      "name": "Hana",
+      "origins": [
+        "ATL"
+      ]
+    },
+    {
+      "name": "Ivan",
+      "origins": [
+        "SEA"
+      ]
+    }
+  ],
+  "notes": "Sample group. Not a real trip.",
+  "ordered": false
+}

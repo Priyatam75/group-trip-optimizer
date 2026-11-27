@@ -1,0 +1,51 @@
+{
+  "name": "Acadia + Portland ME (example)",
+  "length_days": 5,
+  "places": [
+    {
+      "name": "Portland ME",
+      "lat": 43.6591,
+      "lng": -70.2568,
+      "min_nights": 1,
+      "lodging_per_night": 250
+    },
+    {
+      "name": "Bar Harbor",
+      "lat": 44.3876,
+      "lng": -68.2039,
+      "min_nights": 3,
+      "lodging_per_night": 260
+    }
+  ],
+  "date_window": {
+    "start": "2027-08-19"
+  },
+  "travelers": [
+    {
+      "name": "Flo",
+      "origins": [
+        "ATL"
+      ]
+    },
+    {
+      "name": "Gil",
+      "origins": [
+        "ORD"
+      ]
+    },
+    {
+      "name": "Hal",
+      "origins": [
+        "LAX"
+      ]
+    },
+    {
+      "name": "Ida",
+      "origins": [
+        "DFW"
+      ]
+    }
+  ],
+  "notes": "Sample group. Not a real trip.",
+  "ordered": false
+}

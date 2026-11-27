@@ -1,0 +1,31 @@
+{
+  "name": "Tetons + Yellowstone (example)",
+  "notes": "Sample group from HLD use case 1. Not a real past trip.",
+  "places": [
+    {"name": "Jackson (Grand Teton)", "lat": 43.4799, "lng": -110.7624, "min_nights": 2, "lodging_per_night": 260},
+    {"name": "West Yellowstone", "lat": 44.6621, "lng": -111.1041, "min_nights": 2, "lodging_per_night": 200}
+  ],
+  "ordered": false,
+  "length_days": 6,
+  "date_window": {"start": "2027-06-12", "flex_days": 2},
+  "travelers": [
+    {"name": "Priya", "origins": ["JFK", "EWR", "LGA"], "budget": 1900},
+    {"name": "Sam", "origins": ["BOS"], "budget": 1900},
+    {"name": "Alex", "origins": ["ORD", "MDW"], "budget": 1500},
+    {"name": "Jordan", "origins": ["SFO", "OAK", "SJC"], "budget": 1500},
+    {"name": "Riley", "origins": ["SEA"], "budget": 1500},
+    {"name": "Casey", "origins": ["AUS"], "budget": 1700}
+  ],
+  "params": {"lambda_per_hour": 25},
+  "drive_overrides": {
+    "SLC|Jackson (Grand Teton)": 4.75,
+    "BZN|West Yellowstone": 1.6,
+    "IDA|Jackson (Grand Teton)": 2.0,
+    "Jackson (Grand Teton)|West Yellowstone": 2.6
+  },
+  "drop_fees": {
+    "BZN|JAC": 200, "JAC|BZN": 200,
+    "SLC|BZN": 350, "BZN|SLC": 350,
+    "SLC|JAC": 300, "JAC|SLC": 300
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Miami + Key West (example)",
+  "length_days": 6,
+  "ordered": true,
+  "places": [
+    {
+      "name": "Miami Beach",
+      "lat": 25.7907,
+      "lng": -80.13,
+      "min_nights": 2,
+      "lodging_per_night": 280
+    },
+    {
+      "name": "Key West",
+      "lat": 24.5551,
+      "lng": -81.78,
+      "min_nights": 3,
+      "lodging_per_night": 330
+    }
+  ],
+  "date_window": {
+    "start": "2027-02-11"
+  },
+  "travelers": [
+    {
+      "name": "Tom",
+      "origins": [
+        "BOS"
+      ]
+    },
+    {
+      "name": "Uma",
+      "origins": [
+        "ORD"
+      ]
+    },
+    {
+      "name": "Vic",
+      "origins": [
+        "SFO",
+        "OAK"
+      ]
+    },
+    {
+      "name": "Wen",
+      "origins": [
+        "DCA"
+      ]
+    },
+    {
+      "name": "Xia",
+      "origins": [
+        "PHL"
+      ]
+    }
+  ],
+  "notes": "Sample group. Not a real trip."
+}

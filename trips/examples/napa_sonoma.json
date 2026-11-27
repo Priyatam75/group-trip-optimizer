@@ -1,0 +1,64 @@
+{
+  "name": "Napa + Sonoma (example)",
+  "length_days": 4,
+  "places": [
+    {
+      "name": "Napa",
+      "lat": 38.2975,
+      "lng": -122.2869,
+      "min_nights": 2,
+      "lodging_per_night": 320
+    },
+    {
+      "name": "Healdsburg",
+      "lat": 38.6105,
+      "lng": -122.8692,
+      "min_nights": 1,
+      "lodging_per_night": 300
+    }
+  ],
+  "date_window": {
+    "start": "2027-09-23"
+  },
+  "travelers": [
+    {
+      "name": "Jo",
+      "origins": [
+        "BOS"
+      ]
+    },
+    {
+      "name": "Kai",
+      "origins": [
+        "AUS"
+      ]
+    },
+    {
+      "name": "Lena",
+      "origins": [
+        "DCA",
+        "IAD"
+      ]
+    },
+    {
+      "name": "Max",
+      "origins": [
+        "DEN"
+      ]
+    },
+    {
+      "name": "Noor",
+      "origins": [
+        "ORD"
+      ]
+    },
+    {
+      "name": "Oli",
+      "origins": [
+        "LAX"
+      ]
+    }
+  ],
+  "notes": "Sample group. Not a real trip.",
+  "ordered": false
+}

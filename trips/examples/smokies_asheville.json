@@ -1,0 +1,53 @@
+{
+  "name": "Smokies + Asheville (example)",
+  "length_days": 5,
+  "places": [
+    {
+      "name": "Gatlinburg",
+      "lat": 35.7143,
+      "lng": -83.5102,
+      "min_nights": 2,
+      "lodging_per_night": 170
+    },
+    {
+      "name": "Asheville",
+      "lat": 35.5951,
+      "lng": -82.5515,
+      "min_nights": 2,
+      "lodging_per_night": 200
+    }
+  ],
+  "date_window": {
+    "start": "2027-10-14"
+  },
+  "travelers": [
+    {
+      "name": "Pia",
+      "origins": [
+        "JFK",
+        "EWR"
+      ]
+    },
+    {
+      "name": "Quinn",
+      "origins": [
+        "ORD",
+        "MDW"
+      ]
+    },
+    {
+      "name": "Rae",
+      "origins": [
+        "MIA"
+      ]
+    },
+    {
+      "name": "Sol",
+      "origins": [
+        "DFW"
+      ]
+    }
+  ],
+  "notes": "Sample group. Not a real trip.",
+  "ordered": false
+}

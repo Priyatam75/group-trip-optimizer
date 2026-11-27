@@ -1,0 +1,70 @@
+{
+  "name": "Breckenridge + Vail ski (example)",
+  "length_days": 6,
+  "places": [
+    {
+      "name": "Breckenridge",
+      "lat": 39.4817,
+      "lng": -106.0384,
+      "min_nights": 2,
+      "lodging_per_night": 350
+    },
+    {
+      "name": "Vail",
+      "lat": 39.6403,
+      "lng": -106.3742,
+      "min_nights": 2,
+      "lodging_per_night": 420
+    }
+  ],
+  "date_window": {
+    "start": "2027-02-25"
+  },
+  "travelers": [
+    {
+      "name": "Yara",
+      "origins": [
+        "LAX"
+      ]
+    },
+    {
+      "name": "Zed",
+      "origins": [
+        "DFW"
+      ]
+    },
+    {
+      "name": "Abe",
+      "origins": [
+        "JFK",
+        "EWR"
+      ]
+    },
+    {
+      "name": "Bea",
+      "origins": [
+        "SEA"
+      ]
+    },
+    {
+      "name": "Cal",
+      "origins": [
+        "ATL"
+      ]
+    },
+    {
+      "name": "Dina",
+      "origins": [
+        "MSP"
+      ]
+    },
+    {
+      "name": "Ed",
+      "origins": [
+        "IAH"
+      ]
+    }
+  ],
+  "notes": "Sample group. Not a real trip.",
+  "ordered": false
+}

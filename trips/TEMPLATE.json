@@ -1,0 +1,32 @@
+{
+  "name": "Short name for the trip",
+  "notes": "Who went, when, and anything unusual. For a real past trip, replay it on a FUTURE date window (cached fares only exist for upcoming dates) and put what the group actually paid in actual_transport_usd.",
+  "places": [
+    {"name": "Place A", "lat": 0.0, "lng": 0.0, "min_nights": 2, "lodging_per_night": 200},
+    {"name": "Place B", "lat": 0.0, "lng": 0.0, "min_nights": 1, "lodging_per_night": 180}
+  ],
+  "ordered": false,
+  "length_days": 6,
+  "date_window": {"start": "2027-06-12", "flex_days": 2},
+  "travelers": [
+    {"name": "Person 1", "origins": ["JFK", "EWR"], "budget": 1500,
+     "earliest_depart": null, "latest_return": null},
+    {"name": "Person 2", "origins": ["ORD"]}
+  ],
+  "params": {
+    "lambda_per_hour": 25,
+    "max_drive_h_per_day": 5,
+    "max_gateway_drive_h": 6,
+    "max_gateways": 6,
+    "car_daily_rate": 70,
+    "seats_per_car": 5,
+    "drop_fee_default": 250,
+    "fuel_price_per_gal": 3.8,
+    "mpg": 25,
+    "people_per_room": 2,
+    "enforce_budgets": true
+  },
+  "drive_overrides": {"AIRPORT|Place A": 2.5},
+  "drop_fees": {"PICKUP|DROPOFF": 300},
+  "actual_transport_usd": null
+}

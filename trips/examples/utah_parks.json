@@ -1,0 +1,20 @@
+{
+  "name": "Zion, Bryce + Moab (example)",
+  "notes": "Sample group. Not a real past trip.",
+  "places": [
+    {"name": "Springdale (Zion)", "lat": 37.1889, "lng": -112.9986, "min_nights": 2, "lodging_per_night": 220},
+    {"name": "Bryce Canyon", "lat": 37.6283, "lng": -112.1677, "min_nights": 1, "lodging_per_night": 170},
+    {"name": "Moab", "lat": 38.5733, "lng": -109.5498, "min_nights": 2, "lodging_per_night": 190}
+  ],
+  "ordered": false,
+  "length_days": 7,
+  "date_window": {"earliest_start": "2027-04-08", "latest_start": "2027-04-12"},
+  "travelers": [
+    {"name": "Maya", "origins": ["DCA", "IAD"]},
+    {"name": "Leo", "origins": ["ATL"]},
+    {"name": "Nina", "origins": ["DEN"]},
+    {"name": "Omar", "origins": ["LAX"]}
+  ],
+  "params": {"max_drive_h_per_day": 5},
+  "actual_transport_usd": 3100
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Glacier National Park (example)",
+  "length_days": 5,
+  "places": [
+    {
+      "name": "West Glacier",
+      "lat": 48.495,
+      "lng": -113.98,
+      "min_nights": 2,
+      "lodging_per_night": 230
+    },
+    {
+      "name": "Many Glacier",
+      "lat": 48.797,
+      "lng": -113.657,
+      "min_nights": 1,
+      "lodging_per_night": 250
+    }
+  ],
+  "date_window": {
+    "start": "2027-07-15"
+  },
+  "travelers": [
+    {
+      "name": "Ana",
+      "origins": [
+        "SEA"
+      ]
+    },
+    {
+      "name": "Ben",
+      "origins": [
+        "ORD"
+      ]
+    },
+    {
+      "name": "Chloe",
+      "origins": [
+        "DEN"
+      ]
+    },
+    {
+      "name": "Dev",
+      "origins": [
+        "MSP"
+      ]
+    }
+  ],
+  "notes": "Sample group. Not a real trip.",
+  "ordered": false
+}
